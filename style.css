@@ -7,6 +7,10 @@
   animation-duration: 10s;
   animation-iteration-count: infinite;
 }
+div {
+  width: 100px;
+  height: 100px;
+}
 @keyframes ani {
   0% {left: 0%; top: 0%; background-color: #FF0000;}
   10% {left: 100%; top: 0%; background-color: #FFA500;}
