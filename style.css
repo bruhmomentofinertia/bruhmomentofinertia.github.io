@@ -8,7 +8,6 @@
   animation-iteration-count: infinite;
 }
 div {
-  width: 1700px;
   height: 800px;
   background-color: #FFFFFF;
   animation-name: new;
