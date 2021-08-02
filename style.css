@@ -36,7 +36,7 @@ div {
   60% {background-color: #000000;}
   100% {background-color: #FFFFFF;} 
 }
-h1 {
+span {
   text-align: center;
   animation-name: new;
   animation-duration; 1s;
