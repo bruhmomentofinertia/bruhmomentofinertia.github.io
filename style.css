@@ -8,7 +8,7 @@
   animation-iteration-count: infinite;
 }
 div {
-  width: 1850px;
+  width: 1700px;
   height: 800px;
   background-color: #FFFFFF;
   animation-name: new;
@@ -37,8 +37,10 @@ div {
   100% {background-color: #FFFFFF;} 
 }
 span {
-  text-align: center;
   animation-name: new;
   animation-duration; 1s;
   animation-iteration-count: infinite;
+}
+h1 {
+  text-align: center;
 }
