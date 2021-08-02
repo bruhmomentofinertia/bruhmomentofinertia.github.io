@@ -5,11 +5,11 @@
   position: relative;
   animation-name: ani;
   animation-duration: 10s;
-  animation-iteration-count: alternate;
+  animation-iteration-count: infinite;
 }
 div {
-  width: 2000px;
-  height: 1000px;
+  width: 1920px;
+  height: 950px;
   background-color: #FFFFFF;
   animation-name: new;
   animation-duration: 1s;
@@ -29,7 +29,10 @@ div {
   100% {left: 0%; top: 0%; background-color: #FF0000;}
 }
 @keyframes new {
-  0% {background-color: #FFFFFF;}
-  50% {background-color: #000000;}
-  100% {background-color: #FFFFFF:}
+  0% {background-color: #FF0000;}
+  20% {background-color: #FFFF00;}
+  40% {background-color: #00FFFF;}
+  60% {background-color: #800080;}
+  60% {background-color: #000000;}
+  100% {background-color: #FFFFFF;} 
 }
