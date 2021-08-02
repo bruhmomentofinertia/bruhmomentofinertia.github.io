@@ -2,15 +2,15 @@
   margin: 0;
   background-color: #FF0000;
   font-size: 36px;
+    position: relative;
+  animation-name: ani;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 div {
   width: 500px;
   height: 500px;
   background-color: #000000;
-  position: relative;
-  animation-name: ani;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
 }
 @keyframes ani {
   0% {left: 0%; top: 0%; background-color: #FF0000;}
