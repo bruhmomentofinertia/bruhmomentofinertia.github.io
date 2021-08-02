@@ -8,20 +8,20 @@
   animation-iteration-count: infinite;
 }
 div {
-  width: 500px;
-  height: 500px;
+  width: 2000px;
+  height: 1000px;
   background-color: #000000;
 }
 @keyframes ani {
   0% {left: 0%; top: 0%; background-color: #FF0000;}
-  10% {left: 100%; top: 0%; background-color: #FFA500;}
-  20% {left: 100%; top: 100%; background-color: #FFFF00;}
-  30% {left: 0%; top: 100%; background-color: #00FF00;}
+  10% {left: 80%; top: 0%; background-color: #FFA500;}
+  20% {left: 80%; top: 80%; background-color: #FFFF00;}
+  30% {left: 0%; top: 80%; background-color: #00FF00;}
   40% {left: 0%; top: 0%; background-color: #00FFFF;}
-  50% {left: 50%; top: 20%; background-color: #4B0082;}
-  60% {left: 100%; top: 40%; background-color: #800080;}
-  70% {left: 50%; top: 60%; background-color: #CBC3E3;}
-  80% {left: 0%; top: 80%; background-color: #FFFFFF;}
-  90% {left: 50%; top: 100%; background-color: #FFC0CB;}
+  50% {left: 40%; top: 16%; background-color: #4B0082;}
+  60% {left: 80%; top: 32%; background-color: #800080;}
+  70% {left: 40%; top: 48%; background-color: #CBC3E3;}
+  80% {left: 0%; top: 64%; background-color: #FFFFFF;}
+  90% {left: 40%; top: 80%; background-color: #FFC0CB;}
   100% {left: 0%; top: 0%; background-color: #FF0000;}
 {
