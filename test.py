@@ -1,2 +1,2 @@
-with open("log.txt", "a") as myfile:
-    myfile.write("appended text")
+myfile = open("log.txt", "a")
+myfile.write("appended text")
