@@ -6,9 +6,10 @@
     animation-name: ani;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-radius: 12px;
   }
   div {
-    height: 1200px;
+    height: 800px;
     background-color: #FFFFFF;
     animation-name: new;
     animation-duration: 1s;
